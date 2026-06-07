@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Fondo sello lacre -->
+  <path d="M50 4 Q55 1 60 5 Q65 1 70 5 Q75 2 79 7 Q85 6 87 12 Q93 12 94 19 Q99 21 98 27 Q103 32 100 38 Q103 43 100 48 Q102 54 98 58 Q100 64 96 68 Q97 74 92 77 Q91 83 86 85 Q84 91 79 92 Q76 97 70 96 Q65 100 60 97 Q55 100 50 98 Q45 100 40 97 Q35 100 30 96 Q24 97 21 92 Q16 91 14 85 Q9 83 8 77 Q3 74 4 68 Q0 64 2 58 Q-2 54 0 48 Q-3 43 0 38 Q-3 32 2 27 Q1 21 6 19 Q7 12 13 12 Q15 6 21 7 Q25 2 30 5 Q35 1 40 5 Q45 0 50 4Z" fill="#5B0E1B"/>
+  <!-- Círculo interior -->
+  <circle cx="50" cy="50" r="31" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <!-- I -->
+  <text x="33" y="67" font-family="Georgia,serif" font-size="40" fill="white" text-anchor="middle">I</text>
+  <!-- S -->
+  <text x="61" y="68" font-family="Georgia,serif" font-size="40" fill="white" text-anchor="middle">S</text>
+  <!-- Corazón -->
+  <path d="M63 29 Q65 26 68 29 Q71 26 73 29 Q73 33 68 37 Q63 33 63 29Z" fill="white" opacity="0.88"/>
+</svg>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloquear rutas de administración de Sanity
+Disallow: /studio/
+Disallow: /admin/
+
+Sitemap: https://isamar.co/sitemap.xml

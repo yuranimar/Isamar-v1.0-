@@ -1,0 +1,16 @@
+{
+  "name": "Isamar — Tejidos Artesanales",
+  "short_name": "Isamar",
+  "description": "Mantas, ruanas y accesorios tejidos a mano con amor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF6F3",
+  "theme_color": "#5B0E1B",
+  "lang": "es",
+  "icons": [
+    { "src": "/favicon.svg",        "type": "image/svg+xml", "sizes": "any"     },
+    { "src": "/favicon-32.png",     "type": "image/png",     "sizes": "32x32"   },
+    { "src": "/apple-touch-icon.png","type": "image/png",    "sizes": "180x180" }
+  ],
+  "categories": ["shopping", "lifestyle"]
+}

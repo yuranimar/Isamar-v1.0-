@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500&display=swap');
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply font-sans bg-cream text-brown overflow-x-hidden; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-burgundy text-rose text-xs tracking-widest uppercase px-10 py-3.5 border border-burgundy transition-all duration-300 cursor-pointer;
+  }
+  .btn-primary:hover { @apply bg-transparent text-burgundy; }
+
+  .btn-secondary {
+    @apply inline-block bg-transparent text-brown text-xs tracking-widest uppercase px-10 py-3.5 border border-brown/30 transition-all duration-300 cursor-pointer;
+  }
+  .btn-secondary:hover { @apply border-burgundy text-burgundy; }
+
+  .btn-gold {
+    @apply inline-block bg-gold text-brown text-xs tracking-widest uppercase px-10 py-3.5 border border-gold transition-all duration-300 cursor-pointer;
+  }
+  .btn-gold:hover { @apply bg-transparent text-gold; }
+
+  .section-tag {
+    @apply block text-gold text-[0.65rem] tracking-[0.25em] uppercase mb-2;
+  }
+  .section-title {
+    @apply font-serif font-light text-burgundy leading-tight;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+  }
+  .divider {
+    @apply w-14 h-px bg-gold my-5;
+  }
+  .filter-btn {
+    @apply text-[0.65rem] tracking-[0.15em] uppercase px-5 py-2 border border-brown/20 text-brown transition-all duration-300 cursor-pointer;
+  }
+  .filter-btn.active, .filter-btn:hover {
+    @apply bg-burgundy text-rose border-burgundy;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes pulse-ring {
+  0%   { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+@keyframes float {
+  0%,100% { transform: translateX(-50%) translateY(0); }
+  50%      { transform: translateX(-50%) translateY(-6px); }
+}
+.animate-pulse-ring::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #25D366;
+  animation: pulse-ring 2s ease-out infinite;
+}
+.animate-float { animation: float 2.5s ease-in-out infinite; }

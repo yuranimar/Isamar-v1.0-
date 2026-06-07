@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Fondo crema -->
+  <rect width="1200" height="630" fill="#FAF6F3"/>
+
+  <!-- Panel borgoña derecho -->
+  <rect x="680" width="520" height="630" fill="#5B0E1B"/>
+
+  <!-- Líneas decorativas doradas -->
+  <path d="M680 80 Q780 50 880 80 T1100 80" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.4"/>
+  <path d="M680 180 Q780 150 880 180 T1100 180" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.35"/>
+  <path d="M680 280 Q780 250 880 280 T1100 280" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.3"/>
+  <path d="M680 380 Q780 350 880 380 T1100 380" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.25"/>
+  <path d="M680 480 Q780 450 880 480 T1100 480" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.2"/>
+  <path d="M680 580 Q780 550 880 580 T1100 580" stroke="#D4AF37" stroke-width="0.8" fill="none" opacity="0.15"/>
+
+  <!-- Sello IS centrado en panel izquierdo -->
+  <g transform="translate(340,315)">
+    <path d="M0 -130 Q14 -137 28 -126 Q42 -137 55 -128 Q68 -133 76 -120 Q90 -122 94 -109 Q107 -107 108 -93 Q120 -88 118 -74 Q128 -64 124 -51 Q130 -41 125 -28 Q130 -17 124 -5 Q128 7 120 17 Q122 30 110 36 Q110 49 97 54 Q93 67 80 69 Q74 81 62 80 Q51 87 38 84 Q27 89 14 85 Q2 89 -11 84 Q-23 87 -36 83 Q-47 87 -58 80 Q-70 81 -76 69 Q-88 67 -92 54 Q-104 49 -104 36 Q-116 30 -114 17 Q-122 7 -118 -5 Q-124 -17 -118 -28 Q-124 -41 -118 -51 Q-126 -64 -120 -74 Q-122 -88 -109 -93 Q-108 -107 -95 -109 Q-91 -122 -78 -120 Q-70 -133 -57 -128 Q-44 -137 -31 -126 Q-17 -137 0 -130Z" fill="#5B0E1B"/>
+    <circle cx="0" cy="0" r="84" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+    <text x="-22" y="18" font-family="Georgia,serif" font-size="100" fill="white" text-anchor="middle">I</text>
+    <text x="38" y="20" font-family="Georgia,serif" font-size="100" fill="white" text-anchor="middle">S</text>
+    <path d="M28 -58 Q34 -66 42 -58 Q50 -66 56 -58 Q56 -50 42 -42 Q28 -50 28 -58Z" fill="white" opacity="0.85"/>
+  </g>
+
+  <!-- Texto izquierdo -->
+  <text x="90" y="510" font-family="Georgia,serif" font-size="13" fill="#D4AF37" letter-spacing="6" text-transform="uppercase">TEJIDOS ARTESANALES · HECHO A MANO</text>
+
+  <!-- ISAMAR grande -->
+  <text x="90" y="570" font-family="Georgia,serif" font-size="42" fill="#5B0E1B" font-weight="300" letter-spacing="8">ISAMAR</text>
+
+  <!-- Texto derecho (panel borgoña) -->
+  <text x="730" y="240" font-family="Georgia,serif" font-size="11" fill="#D4AF37" letter-spacing="5">CADA HILO,</text>
+  <text x="730" y="290" font-family="Georgia,serif" font-size="42" fill="#F5E6E6" font-style="italic" font-weight="300">una historia</text>
+  <text x="730" y="360" font-family="Georgia,serif" font-size="14" fill="rgba(245,230,230,0.6)" font-style="italic">Mantas · Ruanas · Accesorios</text>
+  <text x="730" y="400" font-family="Georgia,serif" font-size="14" fill="rgba(245,230,230,0.6)" font-style="italic">Personalizados con amor</text>
+
+  <!-- Línea dorada separadora izquierda -->
+  <rect x="90" y="488" width="56" height="1" fill="#D4AF37"/>
+
+  <!-- URL -->
+  <text x="730" y="560" font-family="Georgia,serif" font-size="13" fill="rgba(245,230,230,0.35)" letter-spacing="3">isamar.co</text>
+</svg>

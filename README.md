@@ -319,3 +319,5 @@ Las clientas verán el formulario "Avísame cuando llegue".
 ---
 
 *Hecho con ♥ para Isamar — Tejidos Artesanales*
+#   I s a m a r - v 1 . 0 -  
+ 

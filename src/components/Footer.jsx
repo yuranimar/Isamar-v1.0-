@@ -13,13 +13,13 @@ const SOCIAL = [
 export default function Footer() {
   return (
     <footer id="contact" className="bg-[#8B3A45] pt-16 pb-8 text-[#F8F0F0]">
-      {/* Sección principal: Contenido central */}
+      {/* Sección principal */}
       <div className="max-w-4xl mx-auto text-center px-6 mb-16">
         <span className="text-[0.6rem] tracking-[0.3em] uppercase opacity-60 mb-4 block">¿Lista para tu pieza?</span>
         <h2 className="font-serif text-3xl md:text-4xl mb-6 font-light">
           Hablemos sobre tu <em className="italic opacity-80">pedido</em>
         </h2>
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" 
+        <a href={WA_URL} target="_blank" rel="noopener noreferrer"
            className="inline-block px-8 py-3 bg-[#F8F0F0] text-[#8B3A45] hover:bg-[#EAD8D8] transition-all duration-300 uppercase tracking-[0.2em] text-[0.7rem] font-medium">
           Escribir por WhatsApp
         </a>
@@ -27,20 +27,25 @@ export default function Footer() {
 
       {/* Barra inferior */}
       <div className="px-6 md:px-16 flex flex-col items-center gap-8 border-t border-[#F8F0F0]/10 pt-8">
-        
-        {/* Logo */}
+
+        {/* Logo + nombre */}
         <div className="flex items-center gap-3 opacity-90">
           <IsamarLogo size={24} variant="light" />
-          <span className="font-serif text-lg tracking-[0.2em]">ISAMAR</span>
+          <div className="flex flex-col leading-none">
+            <span className="font-serif text-lg tracking-[0.2em]">ISAMAR</span>
+            <span className="text-[0.5rem] tracking-[0.18em] uppercase opacity-60">Tejidos y Crochet</span>
+          </div>
         </div>
 
-        {/* Social con forma circular perfecta */}
+        {/* Social */}
         <div className="flex gap-4">
           {SOCIAL.map((s, i) => (
             <a key={i} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.label}
                className="group w-10 h-10 flex items-center justify-center rounded-full border border-[#F8F0F0]/20 transition-all duration-300 hover:bg-[#F8F0F0] hover:border-transparent">
-              <svg className="w-4 h-4 fill-current opacity-70 group-hover:opacity-100 transition-colors duration-300" 
-                   viewBox="0 0 24 24" style={{ color: 'inherit' }} onMouseOver={(e) => e.currentTarget.style.fill = s.color} onMouseOut={(e) => e.currentTarget.style.fill = 'currentColor'}>
+              <svg className="w-4 h-4 fill-current opacity-70 group-hover:opacity-100 transition-colors duration-300"
+                   viewBox="0 0 24 24" style={{ color: 'inherit' }}
+                   onMouseOver={e => e.currentTarget.style.fill = s.color}
+                   onMouseOut={e => e.currentTarget.style.fill = 'currentColor'}>
                 {s.icon}
               </svg>
             </a>
@@ -48,7 +53,7 @@ export default function Footer() {
         </div>
 
         <p className="text-[0.5rem] tracking-[0.25em] uppercase opacity-30 text-center">
-          © {new Date().getFullYear()} Isamar — Tejidos Artesanales
+          © {new Date().getFullYear()} Isamar • Tejidos y Crochet
         </p>
       </div>
     </footer>
